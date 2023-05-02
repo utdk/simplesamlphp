@@ -14,7 +14,7 @@ repository](simplesamlphp-install-repo).
 ## Prerequisites
 
 * A web server capable of executing PHP scripts.
-* PHP version >= 7.2.0.
+* PHP version >= 7.4.0.
 * Support for the following PHP extensions:
   * Always required: `date`, `dom`, `fileinfo`, `filter`, `hash`, `intl`, `json`, `libxml`, `mbstring`, `openssl`,
                      `pcre`, `session`, `simplexml`, `SPL` and `zlib`
@@ -379,26 +379,26 @@ As an example, let's see how you can install SimpleSAMLphp in your home director
 
 1. Extract the SimpleSAMLphp archive in your home directory:
 
-   ```bash
-   cd ~
-   tar xzf simplesamlphp-1.x.y.tar.gz
-   mv simplesamlphp-1.x.y simplesamlphp
-   ```
+```bash
+cd ~
+tar xzf simplesamlphp-1.x.y.tar.gz
+mv simplesamlphp-1.x.y simplesamlphp
+```
 
 2. Then you can try to make a symlink into the `public_html` directory.
 
-   ```bash
-   cd ~/public_html
-   ln -s ../simplesamlphp/public simplesaml
-   ```
+```bash
+cd ~/public_html
+ln -s ../simplesamlphp/public simplesaml
+```
 
 3. Next, you need to set the `baseurlpath` configuration option with the URL pointing to the `simplesaml` link you
    just created in your `public_html` directory. For example, if your home directory is reachable in
    `https://host.example/~myaccount/`, set the base URL path accordingly:
 
-   ```bash
-   'baseurlpath' => 'https://host.example/~myaccount/simplesaml/',
-   ```
+```php
+'baseurlpath' => 'https://host.example/~myaccount/simplesaml/',
+```
 
    Now, you can go to the URL of your installation and check if things work:
 
