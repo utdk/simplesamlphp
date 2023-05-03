@@ -1,9 +1,9 @@
 {
-    "name": "simplesamlphp/simplesamlphp",
-    "description": "A PHP implementation of a SAML 2.0 service provider and identity provider.",
+    "name": "utexas/simplesamlphp",
+    "description": "Fork of simplesamlphp/simplesamlphp (https://simplesamlphp.org/)",
     "type": "project",
     "keywords": [ "saml2", "shibboleth","oauth","ws-federation","sp","idp" ],
-    "homepage": "https://simplesamlphp.org",
+    "homepage": "https://github.austin.utexas.edu/eis1-wcs/simplesamlphp",
     "license": "LGPL-2.1-or-later",
     "authors": [
         {
@@ -65,9 +65,9 @@
         "phpmailer/phpmailer": "^6.5",
         "psr/log": "^2.0 || ^3.0",
         "robrichards/xmlseclibs": "^3.1.1",
-        "simplesamlphp/assert": "^1.0.0",
-        "simplesamlphp/saml2": "^4.6",
-        "simplesamlphp/simplesamlphp-assets-base": "^2.0",
+        "simplesamlphp/assert": "1.0.4",
+        "simplesamlphp/saml2": "4.6.3",
+        "simplesamlphp/simplesamlphp-assets-base": "2.0.4",
         "symfony/cache": "^5.4||^6",
         "symfony/config": "^5.4||^6",
         "symfony/console": "^5.4||^6",
