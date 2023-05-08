@@ -1,7 +1,7 @@
 {
-    "name": "utexas/simplesamlphp",
+    "name": "simplesamlphp/simplesamlphp",
     "description": "Fork of simplesamlphp/simplesamlphp (https://simplesamlphp.org/)",
-    "type": "utexas-simplesamlphp-library",
+    "type": "project",
     "keywords": [ "saml2", "shibboleth","oauth","ws-federation","sp","idp" ],
     "homepage": "https://github.austin.utexas.edu/eis1-wcs/simplesamlphp",
     "license": "LGPL-2.1-or-later",
