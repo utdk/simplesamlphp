@@ -84,7 +84,8 @@
         "symfony/var-exporter": "^5.4||^6",
         "symfony/yaml": "^5.4||^6",
         "twig/intl-extra": "^3.3",
-        "twig/twig": "^3.3.8"
+        "twig/twig": "^3.3.8",
+        "utexas/simplesaml-fork-installer":"dev-main"
     },
     "require-dev": {
         "mikey179/vfsstream": "~1.6",
