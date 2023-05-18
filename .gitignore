@@ -4,8 +4,6 @@ metadata/*
 !/cert/*.gitkeep
 !/config/*.dist
 !/metadata/*.dist
-!/public/assets/.gitkeep
-/public/assets/*
 .phpunit.result.cache
 
 # https://www.gitignore.io/api/osx,windows,linux,netbeans,sublimetext,composer,phpstorm,vagrant

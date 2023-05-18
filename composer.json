@@ -67,7 +67,6 @@
         "robrichards/xmlseclibs": "^3.1.1",
         "simplesamlphp/assert": "1.0.4",
         "simplesamlphp/saml2": "4.6.3",
-        "simplesamlphp/simplesamlphp-assets-base": "2.0.4",
         "symfony/cache": "^5.4||^6",
         "symfony/config": "^5.4||^6",
         "symfony/console": "^5.4||^6",
