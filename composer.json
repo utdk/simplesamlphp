@@ -1,5 +1,5 @@
 {
-    "name": "simplesamlphp/simplesamlphp",
+    "name": "utexas/simplesamlphp",
     "description": "Fork of simplesamlphp/simplesamlphp (https://simplesamlphp.org/)",
     "type": "project",
     "keywords": [ "saml2", "shibboleth","oauth","ws-federation","sp","idp" ],
