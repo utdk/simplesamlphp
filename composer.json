@@ -2,6 +2,7 @@
     "name": "utexas/simplesamlphp",
     "description": "Fork of simplesamlphp/simplesamlphp (https://simplesamlphp.org/)",
     "type": "library",
+    "version": "0.1.1",
     "keywords": [ "saml2", "shibboleth","oauth","ws-federation","sp","idp" ],
     "homepage": "https://github.austin.utexas.edu/eis1-wcs/simplesamlphp",
     "license": "LGPL-2.1-or-later",
@@ -84,7 +85,7 @@
         "symfony/yaml": "^5.4||^6",
         "twig/intl-extra": "^3.3",
         "twig/twig": "^3.3.8",
-        "utexas/simplesaml-fork-installer":"dev-main"
+        "utexas/simplesaml-fork-installer":"1.0.0"
     },
     "require-dev": {
         "mikey179/vfsstream": "~1.6",
