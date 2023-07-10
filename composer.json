@@ -45,7 +45,6 @@
         "files": ["tests/_autoload_modules.php"]
     },
     "require": {
-        "php": "^8.0",
         "ext-date": "*",
         "ext-dom": "*",
         "ext-fileinfo": "*",
